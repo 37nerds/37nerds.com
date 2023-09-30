@@ -1,14 +1,16 @@
 ---
 import { Icon } from "astro-icon";
-import ThemeSwitcher from "~/components/theme-switcher.astro";
-import type { NavItem } from "~/types";
+import ThemeSwitcher from "@/components/theme-switcher.astro";
+import type { NavItem } from "@/types";
+
+const base = "/37nerds.com";
 
 const navItems: Array<NavItem> = [
-    { title: "About", url: "#about" },
-    { title: "Services", url: "#services" },
-    { title: "Portfolio", url: "#portfolio" },
-    { title: "Blog", url: "/blog" },
-    { title: "Contact", url: "#contact" },
+    { title: "About", url: base + "#about" },
+    { title: "Services", url: base + "#services" },
+    { title: "Portfolio", url: base + "#portfolio" },
+    { title: "Blog", url: base + "/blog#content" },
+    { title: "Contact", url: base + "#contact" },
 ];
 ---
 
