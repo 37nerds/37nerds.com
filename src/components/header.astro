@@ -4,9 +4,11 @@ import ThemeSwitcher from "~/components/theme-switcher.astro";
 import type { NavItem } from "~/types";
 
 const navItems: Array<NavItem> = [
-    { title: "About", url: "#features" },
-    { title: "Services", url: "#compatibility" },
-    { title: "Portfolio", url: "#showcase" },
+    { title: "About", url: "#about" },
+    { title: "Services", url: "#services" },
+    { title: "Portfolio", url: "#portfolio" },
+    { title: "Blog", url: "/blog" },
+    { title: "Contact", url: "#contact" },
 ];
 ---
 
@@ -14,9 +16,9 @@ const navItems: Array<NavItem> = [
     id="page-header"
     class="absolute bottom-0 z-20 flex w-full items-center justify-between border-b border-transparent px-8 py-4 text-white"
 >
-    <a class="flex items-center gap-3 hover:!text-default" href="#">
-        <Icon name="logomark" class="h-10" />
-        <h1>37nerds</h1>
+    <a class="flex items-end gap-1 hover:!text-default" href="#">
+        <Icon name="logomark" class="h-10" width="50.42" height="50.37" />
+        <h1 class="font-bold">37nerds</h1>
     </a>
     <div>
         <div class="flex items-center gap-6">
