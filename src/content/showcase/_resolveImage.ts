@@ -4,19 +4,19 @@ import type { ImageMetadata } from "@astrojs/image/dist/vite-plugin-astro-image.
 import type { CollectionEntry } from "astro:content";
 
 const allImages = import.meta.glob<{ default: ImageMetadata }>(
-  "/src/content/showcase/_images/*.{png,jpg,jpeg,webp}",
+    "/src/content/showcase/_images/*.{png,jpg,jpeg,webp}",
 );
 
 export async function resolveImage(entry: CollectionEntry<"showcase">) {
-  const src = entry.data.image;
+    const src = entry.data.image;
 
-  if (!(src in allImages)) {
-    throw new Error(
-      `[showcase] Image for "${entry.data.title}" not found! Provided: "${src}", is there a typo?`,
-    );
-  }
+    if (!(src in allImages)) {
+        throw new Error(
+            `[showcase] Image for "${entry.data.title}" not found! Provided: "${src}", is there a typo?`,
+        );
+    }
 
-  const { default: image } = await allImages[src]();
+    const { default: image } = await allImages[src]();
 
-  return image;
+    return image;
 }
