@@ -1,91 +1,133 @@
 ---
-import CompatibilityList from "~/components/compatibility-list.astro";
-import ContentSection from "~/components/content-section.astro";
 import type { CompatibilityItem } from "~/types";
+
+import CompatibilityList from "./CompatibilityList.astro";
+import ContentSection from "./content-section.astro";
 
 const frameworks: Array<CompatibilityItem> = [
     {
-        title: "React",
+        title: "Laravel",
+        icon: "frameworks/laravel",
+        url: "https://laravel.com",
+    },
+    {
+        title: "Wordpress",
+        icon: "frameworks/wordpress",
+        url: "https://wordpress.org/",
+    },
+    {
+        title: "Node.js",
+        icon: "frameworks/node",
+        url: "https://nodejs.dev",
+    },
+    {
+        title: "React.js",
         icon: "frameworks/react",
-        url: "https://reactjs.org/",
+        url: "https://reactjs.org",
     },
     {
-        title: "Preact",
-        icon: "frameworks/preact",
-        url: "https://preactjs.com/",
-    },
-    {
-        title: "Svelte",
-        icon: "frameworks/svelte",
-        url: "https://svelte.dev/",
-    },
-    {
-        title: "Vue",
-        icon: "frameworks/vue",
-        url: "https://vuejs.org/",
-    },
-    {
-        title: "Solid",
+        title: "Solid.js",
         icon: "frameworks/solid",
-        url: "https://www.solidjs.com/",
+        url: "https://www.solidjs.com",
     },
     {
-        title: "Lit",
-        icon: "frameworks/lit",
-        url: "https://lit.dev/",
+        title: "Astro",
+        icon: "frameworks/astro",
+        url: "https://astro.build",
     },
+
+    // {
+    //     title: "Preact",
+    //     icon: "frameworks/preact",
+    //     url: "https://preactjs.com/",
+    // },
+    // {
+    //     title: "Svelte",
+    //     icon: "frameworks/svelte",
+    //     url: "https://svelte.dev/",
+    // },
+    // {
+    //     title: "Vue",
+    //     icon: "frameworks/vue",
+    //     url: "https://vuejs.org/",
+    // },
+    // {
+    //     title: "Lit",
+    //     icon: "frameworks/lit",
+    //     url: "https://lit.dev/",
+    // },
 ];
 
 const platforms: Array<CompatibilityItem> = [
     {
-        title: "Netlify",
-        icon: "platforms/netlify",
-        url: "https://www.netlify.com/",
+        title: "JavaScript",
+        icon: "platforms/javascript",
+        url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
     },
     {
-        title: "Vercel",
-        icon: "platforms/vercel",
-        url: "https://vercel.com/",
+        title: "TypeScript",
+        icon: "platforms/typescript",
+        url: "https://www.typescriptlang.org",
     },
     {
-        title: "Cloudflare",
-        icon: "fa-brands:cloudflare",
-        url: "https://pages.cloudflare.com/",
+        title: "PHP",
+        icon: "platforms/php",
+        url: "https://php.net/",
     },
     {
-        title: "Render",
-        icon: "platforms/render",
-        url: "https://render.com/",
+        title: "Go",
+        icon: "platforms/go",
+        url: "https://go.dev",
     },
     {
-        title: "GitHub",
-        icon: "fa-brands:github",
-        url: "https://pages.github.com/",
+        title: "SQL",
+        icon: "platforms/sql",
+        url: "https://developer.mozilla.org/en-US/docs/Glossary/SQL",
     },
     {
-        title: "GitLab",
-        icon: "fa-brands:gitlab",
-        url: "https://docs.gitlab.com/ee/user/project/pages/",
+        title: "MySQL",
+        icon: "platforms/mysql",
+        url: "https://developer.mozilla.org/en-US/docs/Glossary/SQL",
     },
+    // {
+    //     title: "Netlify",
+    //     icon: "platforms/netlify",
+    //     url: "https://www.netlify.com/",
+    // },
+    // {
+    //     title: "Vercel",
+    //     icon: "platforms/vercel",
+    //     url: "https://vercel.com/",
+    // },
+    // {
+    //     title: "Cloudflare",
+    //     icon: "fa-brands:cloudflare",
+    //     url: "https://pages.cloudflare.com/",
+    // },
+    // {
+    //     title: "Render",
+    //     icon: "platforms/render",
+    //     url: "https://render.com/",
+    // },
+    // {
+    //     title: "GitHub",
+    //     icon: "fa-brands:github",
+    //     url: "https://pages.github.com/",
+    // },
+    // {
+    //     title: "GitLab",
+    //     icon: "fa-brands:gitlab",
+    //     url: "https://docs.gitlab.com/ee/user/project/pages/",
+    // },
 ];
 ---
 
-<ContentSection title="Compatibility" id="compatibility">
+<ContentSection title="Technologies" id="Technologies">
     <Fragment slot="lead">
-        Astro <span class="text-primary">plays nice</span>. Bring your own UI{
-            " "
-        }
-        <span class="text-primary">framework</span>
-         and deploy to your favorite <span class="text-primary">platform</span>.
+        37nerds <span class="text-primary">happly work</span> with below{" "}
+        <span class="text-primary">languages / frameworks</span>
+         and development <span class="text-primary">platform</span>.
     </Fragment>
-    <CompatibilityList
-        items={frameworks}
-        title="Frameworks"
-        url="https://docs.astro.build/core-concepts/framework-components/"
-    />
-    <CompatibilityList
-        items={platforms}
-        title="Platforms"
-        url="https://docs.astro.build/guides/deploy/"
-    />
+    <CompatibilityList items={frameworks} title="Library / Frameworks" url="" />
+    <CompatibilityList items={platforms} title="Platforms / Languages" url="" />
 </ContentSection>
