@@ -4,7 +4,7 @@ export interface CompatibilityItem {
     url: string;
 }
 
-export interface FeatureItem {
+export interface TServiceItem {
     description: string;
     icon: string;
     title: string;
