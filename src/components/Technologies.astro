@@ -1,7 +1,7 @@
 ---
 import type { CompatibilityItem } from "@/types";
 
-import CompatibilityList from "./compatibility-list.astro";
+import TechnologyList from "./TechnologyList.astro";
 import ContentSection from "./content-section.astro";
 
 const frameworks: Array<CompatibilityItem> = [
@@ -128,6 +128,6 @@ const platforms: Array<CompatibilityItem> = [
         <span class="text-primary">languages / frameworks</span>
          and development <span class="text-primary">platform</span>.
     </Fragment>
-    <CompatibilityList items={frameworks} title="Library / Frameworks" url="" />
-    <CompatibilityList items={platforms} title="Platforms / Languages" url="" />
+    <TechnologyList items={frameworks} title="Library / Frameworks" url="" />
+    <TechnologyList items={platforms} title="Platforms / Languages" url="" />
 </ContentSection>
