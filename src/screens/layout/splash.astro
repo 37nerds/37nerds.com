@@ -16,7 +16,7 @@ const { enable = true } = Astro.props;
 ---
 
 <section class="relative h-full bg-black">
-    {enable ? <Starfield /> : <div />}
+    {enable && <Starfield />}
     <div id="splash-bg-fallback" class="absolute inset-0 hidden opacity-40">
         <HeroImage />
     </div>
@@ -46,7 +46,7 @@ const { enable = true } = Astro.props;
                 alt="A floating astronaut in a space suit"
             />
         </div>
-    </div>}
+    </div>
 </section>
 
 <noscript>
