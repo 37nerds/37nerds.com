@@ -16,7 +16,7 @@ const { enable = true } = Astro.props;
 ---
 
 <section class="relative h-full bg-black">
-    {enable && <Starfield />
+    {enable ? <Starfield /> : <div />}
     <div id="splash-bg-fallback" class="absolute inset-0 hidden opacity-40">
         <HeroImage />
     </div>

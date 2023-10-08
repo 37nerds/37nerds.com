@@ -5,9 +5,9 @@ import solidJs from "@astrojs/solid-js";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://37nerds.github.io",
-  integrations: [tailwind(), solidJs()],
-  image: {
-    service: squooshImageService()
-  }
+    site: "https://37nerds.github.io",
+    integrations: [tailwind(), solidJs()],
+    image: {
+        service: squooshImageService(),
+    },
 });
