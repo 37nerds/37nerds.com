@@ -1,4 +1,4 @@
-import type { TIconComponent } from "@/types";
+import type { TIconComponent } from "@/types.ts";
 
 const DiscordIcon: TIconComponent = p => {
     return (

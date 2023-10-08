@@ -1,3 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 /* TODO: consider creating <Button> and <GradientText> components */
 a,
 .btn {
@@ -11,6 +16,9 @@ a,
     @apply bg-gradient-to-br from-indigo-500 via-fuchsia-500 to-pink-500;
 }
 
-:global(.fixed-header) #theme-switcher {
-    @apply ml-0 scale-100;
+
+@layer utilities {
+    :global(.fixed-header) #theme-switcher {
+        @apply ml-0 scale-100;
+    }
 }

@@ -1,12 +1,12 @@
 import type { CompatibilityItem, FooterLink } from "@/types";
 
-import TwitterIcon from "@/components/icons/TwitterIcon.tsx";
-import HomeIcon from "@/components/icons/HomeIcon.tsx";
-import GithubIcon from "@/components/icons/GithubIcon.tsx";
-import LinkedInIcon from "@/components/icons/LinkedInIcon.tsx";
-import DiscordIcon from "@/components/icons/DiscordIcon.tsx";
-import LaravelIcon from "@/components/icons/LaravelIcon.tsx";
-import AstroIcon from "@/components/icons/AstroIcon.tsx";
+import TwitterIcon from "@/icons/socials/TwitterIcon.tsx";
+import HomeIcon from "@/icons/socials/HomeIcon.tsx";
+import GithubIcon from "@/icons/socials/GithubIcon.tsx";
+import LinkedInIcon from "@/icons/socials/LinkedInIcon.tsx";
+import DiscordIcon from "@/icons/socials/DiscordIcon.tsx";
+import LaravelIcon from "@/icons/frameworks/LaravelIcon.tsx";
+import AstroIcon from "@/icons/frameworks/AstroIcon.tsx";
 
 export const links: FooterLink[] = [
     {
