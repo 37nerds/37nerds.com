@@ -8,7 +8,7 @@ export interface CompatibilityItem {
 
 export interface TServiceItem {
     description: string;
-    icon: string;
+    icon: TIconComponent;
     title: string;
 }
 

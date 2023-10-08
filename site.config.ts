@@ -1,4 +1,4 @@
-import type { CompatibilityItem, FooterLink } from "@/types";
+import type { CompatibilityItem, FooterLink, TServiceItem } from "@/types";
 
 import TwitterIcon from "@/icons/socials/TwitterIcon.tsx";
 import HomeIcon from "@/icons/socials/HomeIcon.tsx";
@@ -7,6 +7,9 @@ import LinkedInIcon from "@/icons/socials/LinkedInIcon.tsx";
 import DiscordIcon from "@/icons/socials/DiscordIcon.tsx";
 import LaravelIcon from "@/icons/frameworks/LaravelIcon.tsx";
 import AstroIcon from "@/icons/frameworks/AstroIcon.tsx";
+import HandshakeIcon from "@/icons/services/HandshakeIcon";
+import FeatherIcon from "@/icons/services/FeatherIcon";
+import DirectionsForkIcon from "@/icons/services/DirectionsForkIcon";
 
 export const links: FooterLink[] = [
     {
@@ -99,5 +102,32 @@ export const platforms: CompatibilityItem[] = [
         title: "MySQL",
         icon: "/platforms/mysql.svg",
         url: "https://developer.mozilla.org/en-US/docs/Glossary/SQL",
+    },
+];
+
+export const services: TServiceItem[] = [
+    {
+        title: "SaaS Application Development",
+        description:
+            "Turn your SaaS idea into reality with 37nerds, using cutting-edge technologies like JavaScript, TypeScript, Node.js, React.js, PHP, Laravel, Go, and more.",
+        icon: HandshakeIcon,
+    },
+    {
+        title: "ERP Solution For Business",
+        description:
+            "Enhance business operations with our ERP solution: streamline processes, centralize data, and boost efficiency for improved productivity and growth.",
+        icon: FeatherIcon,
+    },
+    {
+        title: "Wordpress Plugin Development",
+        description:
+            "Create custom WordPress plugins for your specific business needs, featuring clean code and a solid architecture, all crafted by 37nerds.",
+        icon: DirectionsForkIcon,
+    },
+    {
+        title: "Complete Ecommerce Soluation",
+        description:
+            "We'll tailor an e-commerce app to suit your business. If WooCommerce suffices, you get it. For custom needs, we build from scratch using modern technologies.",
+        icon: DirectionsForkIcon,
     },
 ];
