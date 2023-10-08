@@ -1,6 +1,6 @@
-import type { TIconC } from "@/types";
+import type { TIconComponent } from "@/types";
 
-const DiscordIcon: TIconC = p => {
+const DiscordIcon: TIconComponent = p => {
     return (
         <svg viewBox="0 0 640 512" class={p.class}>
             <path

@@ -3,69 +3,69 @@
         <linearGradient id="b" spreadMethod="pad"
             gradientTransform="scale(1086.057 -1086.057) rotate(36.695 3.333 .531)" gradientUnits="userSpaceOnUse"
             y2="0" x2="1" y1="0" x1="0">
-            <stop offset="0" style="stop-opacity:1;stop-color:white" />
+            <stop offset="0" style="stop-opacity:1;stop-color:currentColor" />
             <stop offset="1" style="stop-opacity:1;stop-color:#505e9b" />
         </linearGradient>
         <linearGradient id="x" spreadMethod="pad"
             gradientTransform="scale(1219.787 -1219.787) rotate(55.545 2.383 -.625)" gradientUnits="userSpaceOnUse"
             y2="0" x2="1" y1="0" x1="0">
             <stop offset="0" style="stop-opacity:1;stop-color:#323330" />
-            <stop offset="1" style="stop-opacity:1;stop-color:white" />
+            <stop offset="1" style="stop-opacity:1;stop-color:currentColor" />
         </linearGradient>
         <linearGradient id="f" spreadMethod="pad" gradientTransform="scale(1081.295 -1081.295) rotate(36.695 2.45 .222)"
             gradientUnits="userSpaceOnUse" y2="0" x2="1" y1="0" x1="0">
-            <stop offset="0" style="stop-opacity:1;stop-color:white" />
-            <stop offset="1" style="stop-opacity:1;stop-color:white" />
+            <stop offset="0" style="stop-opacity:1;stop-color:currentColor" />
+            <stop offset="1" style="stop-opacity:1;stop-color:currentColor" />
         </linearGradient>
         <linearGradient id="h" spreadMethod="pad"
             gradientTransform="scale(1081.284 -1081.284) rotate(36.695 3.184 .483)" gradientUnits="userSpaceOnUse"
             y2="0" x2="1" y1="0" x1="0">
-            <stop offset="0" style="stop-opacity:1;stop-color:white" />
-            <stop offset="1" style="stop-opacity:1;stop-color:white" />
+            <stop offset="0" style="stop-opacity:1;stop-color:currentColor" />
+            <stop offset="1" style="stop-opacity:1;stop-color:currentColor" />
         </linearGradient>
         <linearGradient id="j" spreadMethod="pad" gradientTransform="scale(1049.603 -1049.603) rotate(36.695 3.41 .526)"
             gradientUnits="userSpaceOnUse" y2="0" x2="1" y1="0" x1="0">
             <stop offset="0" style="stop-opacity:1;stop-color:#808fd0" />
-            <stop offset="1" style="stop-opacity:1;stop-color:white" />
+            <stop offset="1" style="stop-opacity:1;stop-color:currentColor" />
         </linearGradient>
         <linearGradient id="l" spreadMethod="pad"
             gradientTransform="scale(1091.548 -1091.548) rotate(36.695 2.927 .401)" gradientUnits="userSpaceOnUse"
             y2="0" x2="1" y1="0" x1="0">
-            <stop offset="0" style="stop-opacity:1;stop-color:white" />
-            <stop offset="1" style="stop-opacity:1;stop-color:white" />
+            <stop offset="0" style="stop-opacity:1;stop-color:currentColor" />
+            <stop offset="1" style="stop-opacity:1;stop-color:currentColor" />
         </linearGradient>
         <linearGradient id="d" spreadMethod="pad" gradientTransform="scale(1095.087 -1095.087) rotate(36.695 4.593 .97)"
             gradientUnits="userSpaceOnUse" y2="0" x2="1" y1="0" x1="0">
             <stop offset="0" style="stop-opacity:1;stop-color:#808fd0" />
-            <stop offset="1" style="stop-opacity:1;stop-color:white" />
+            <stop offset="1" style="stop-opacity:1;stop-color:currentColor" />
         </linearGradient>
         <linearGradient id="n" spreadMethod="pad"
             gradientTransform="scale(1024.277 -1024.277) rotate(55.545 1.742 -1.277)" gradientUnits="userSpaceOnUse"
             y2="0" x2="1" y1="0" x1="0">
             <stop offset="0" style="stop-opacity:1;stop-color:#323330" />
-            <stop offset="1" style="stop-opacity:1;stop-color:white" />
+            <stop offset="1" style="stop-opacity:1;stop-color:currentColor" />
         </linearGradient>
         <linearGradient id="p" spreadMethod="pad" gradientTransform="scale(1193.517 -1193.517) rotate(55.545 2.45 -.63)"
             gradientUnits="userSpaceOnUse" y2="0" x2="1" y1="0" x1="0">
             <stop offset="0" style="stop-opacity:1;stop-color:#323330" />
-            <stop offset="1" style="stop-opacity:1;stop-color:white" />
+            <stop offset="1" style="stop-opacity:1;stop-color:currentColor" />
         </linearGradient>
         <linearGradient id="r" spreadMethod="pad"
             gradientTransform="scale(1080.732 -1080.732) rotate(36.695 2.416 .212)" gradientUnits="userSpaceOnUse"
             y2="0" x2="1" y1="0" x1="0">
-            <stop offset="0" style="stop-opacity:1;stop-color:white" />
-            <stop offset="1" style="stop-opacity:1;stop-color:white" />
+            <stop offset="0" style="stop-opacity:1;stop-color:currentColor" />
+            <stop offset="1" style="stop-opacity:1;stop-color:currentColor" />
         </linearGradient>
         <linearGradient id="t" spreadMethod="pad" gradientTransform="scale(1084.489 -1084.489) rotate(36.695 3.303 .52)"
             gradientUnits="userSpaceOnUse" y2="0" x2="1" y1="0" x1="0">
-            <stop offset="0" style="stop-opacity:1;stop-color:white" />
-            <stop offset="1" style="stop-opacity:1;stop-color:white" />
+            <stop offset="0" style="stop-opacity:1;stop-color:currentColor" />
+            <stop offset="1" style="stop-opacity:1;stop-color:currentColor" />
         </linearGradient>
         <linearGradient id="v" spreadMethod="pad"
             gradientTransform="scale(1082.824 -1082.824) rotate(36.695 3.426 .562)" gradientUnits="userSpaceOnUse"
             y2="0" x2="1" y1="0" x1="0">
-            <stop offset="0" style="stop-opacity:1;stop-color:white" />
-            <stop offset="1" style="stop-opacity:1;stop-color:white" />
+            <stop offset="0" style="stop-opacity:1;stop-color:currentColor" />
+            <stop offset="1" style="stop-opacity:1;stop-color:currentColor" />
         </linearGradient>
         <clipPath id="g" clipPathUnits="userSpaceOnUse">
             <path

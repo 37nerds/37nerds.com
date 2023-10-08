@@ -1,10 +1,12 @@
-import type { FooterLink } from "@/types";
+import type { CompatibilityItem, FooterLink } from "@/types";
 
 import TwitterIcon from "@/components/icons/TwitterIcon.tsx";
 import HomeIcon from "@/components/icons/HomeIcon.tsx";
 import GithubIcon from "@/components/icons/GithubIcon.tsx";
 import LinkedInIcon from "@/components/icons/LinkedInIcon.tsx";
 import DiscordIcon from "@/components/icons/DiscordIcon.tsx";
+import LaravelIcon from "@/components/icons/LaravelIcon.tsx";
+import AstroIcon from "@/components/icons/AstroIcon.tsx";
 
 export const links: FooterLink[] = [
     {
@@ -31,5 +33,71 @@ export const links: FooterLink[] = [
         url: "https://www.linkedin.com/company/37nerds",
         description: "37nerds on LinkedIn",
         icon: LinkedInIcon,
+    },
+];
+
+export const frameworks: CompatibilityItem[] = [
+    {
+        title: "Laravel",
+        icon: LaravelIcon,
+        url: "https://laravel.com",
+    },
+    {
+        title: "Wordpress",
+        icon: "/frameworks/wordpress.svg",
+        url: "https://wordpress.org/",
+    },
+    {
+        title: "Node.js",
+        icon: "/frameworks/node.svg",
+        url: "https://nodejs.dev",
+    },
+    {
+        title: "React.js",
+        icon: "/frameworks/react.svg",
+        url: "https://reactjs.org",
+    },
+    {
+        title: "Solid.js",
+        icon: "/frameworks/solid.svg",
+        url: "https://www.solidjs.com",
+    },
+    {
+        title: "Astro",
+        icon: AstroIcon,
+        url: "https://astro.build",
+    },
+];
+
+export const platforms: CompatibilityItem[] = [
+    {
+        title: "JavaScript",
+        icon: "/platforms/javascript.svg",
+        url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    },
+    {
+        title: "TypeScript",
+        icon: "/platforms/typescript.svg",
+        url: "https://www.typescriptlang.org",
+    },
+    {
+        title: "PHP",
+        icon: "/platforms/php.svg",
+        url: "https://php.net/",
+    },
+    {
+        title: "Go",
+        icon: "/platforms/go.svg",
+        url: "https://go.dev",
+    },
+    {
+        title: "SQL",
+        icon: "/platforms/sql.svg",
+        url: "https://developer.mozilla.org/en-US/docs/Glossary/SQL",
+    },
+    {
+        title: "MySQL",
+        icon: "/platforms/mysql.svg",
+        url: "https://developer.mozilla.org/en-US/docs/Glossary/SQL",
     },
 ];

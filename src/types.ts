@@ -1,7 +1,7 @@
-import type { Component, JSX } from "solid-js";
+import type { JSX } from "solid-js";
 
 export interface CompatibilityItem {
-    icon: string;
+    icon: string | TIconComponent;
     title: string;
     url: string;
 }
@@ -17,10 +17,10 @@ export interface NavItem {
     url: string;
 }
 
-export type TIconC = (p: { class: string }) => JSX.Element;
+export type TIconComponent = (p: { class: string }) => JSX.Element;
 
 export type FooterLink = {
     description: string;
-    icon: TIconC;
+    icon: TIconComponent;
     url: string;
 };
