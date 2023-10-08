@@ -18,3 +18,9 @@ export interface NavItem {
 }
 
 export type TIconC = (p: { class: string }) => JSX.Element;
+
+export type FooterLink = {
+    description: string;
+    icon: TIconC;
+    url: string;
+};
